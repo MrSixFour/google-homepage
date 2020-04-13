@@ -1,0 +1,30 @@
+html {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.topnav {
+    overflow: hidden;
+}
+.topnav a {
+    display: inline;
+    color: white;
+    padding: 7px 1px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
